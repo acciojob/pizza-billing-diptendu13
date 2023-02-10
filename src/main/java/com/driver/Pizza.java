@@ -18,10 +18,10 @@ public class Pizza {
         this.total = 0;
         // your code goes here
         if (this.isVeg){
-            this.price = 300;
+            this.price = 390;
         }
         else {
-            this.price = 400;
+            this.price = 500;
         }
         this.total += this.price;
     }
