@@ -13,6 +13,10 @@ public class Pizza {
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
         // your code goes here
+        this.isExtraCheese = false;
+        this.isExtraToppings = false;
+        this.isTakeaway = false;
+        this.isBillCreated = false;
         if (this.isVeg){
             this.price = 300;
             this.toppings = 70;
